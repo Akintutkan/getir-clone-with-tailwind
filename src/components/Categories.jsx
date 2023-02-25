@@ -18,7 +18,7 @@ export default function Categories() {
             <div className="container mx-auto">
                 <Title>Kategoriler</Title>
                 <div className="grid grid-cols-10">
-                    {/* {!categories.length && 'Yükleniyor..'} */}
+                    {!categories.length && 'Yükleniyor..'} 
                     {categories && categories.map((category, index) => <Category key={index} category={category} />)}
                 </div>
             </div>
