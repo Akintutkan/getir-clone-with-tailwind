@@ -2,7 +2,6 @@ import React from 'react'
 
 const MobileApp = () => {
   return (
-<<<<<<< HEAD
       <div className="bg-primary-brand-color flex justify-between items-center bg-mobile-app rounded-lg text-white">
           <div className="flex flex-col gap-y-3 p-10">
               <h3 className="text-2xl font-bold tracking-tight">Getir'i indirin!</h3>
@@ -23,9 +22,6 @@ const MobileApp = () => {
               <img src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png" />
           </picture>
       </div>
-=======
-    <div>MobileApp</div>
->>>>>>> 5000fbadef5d053882fb5f7d4c3eb4acb68ff0fe
   )
 }
 
