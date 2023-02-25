@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 export default function Category({ category: {id, title, image} }) { // categoryden değerleri almak için bunuları categoriesin içeridsinde kullancağız
     return (
         <a href="#" className="flex flex-col group items-center gap-y-2 text-center p-4 transition hover:bg-purple-50">

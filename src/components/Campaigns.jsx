@@ -48,7 +48,7 @@ export default function Campaigns() {
                 {banners.length && banners.map((banner, index) => (
                     <div key={banner.id}>
                         <picture className="block px-2">
-                            <img src={banner.image} className="rounded-lg" />
+                            <img src={banner.image} className="rounded-lg"  alt=""/>
                         </picture>
                     </div>
                 ))}
