@@ -19,7 +19,7 @@ export default function MobileApp() {
               </nav>
           </div>
           <picture className="pt-6">
-              <img src="https://getir.com/_next/static/images/phoneLanding-88c033545710c4808054072689e187d7.png" />
+              <img src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png" />
           </picture>
       </div>
   )

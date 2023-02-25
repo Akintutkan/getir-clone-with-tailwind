@@ -5,14 +5,15 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-flags-select": "^2.1.2",
-    "react-icons": "^4.2.0",
-    "react-scripts": "4.0.3",
-    "react-slick": "^0.28.1",
-    "web-vitals": "^1.0.1"
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-flags-select": "^2.2.3",
+    "react-icons": "^4.7.1",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,11 +28,6 @@
       "react-app/jest"
     ]
   },
-  "devDependencies": {
-    "autoprefixer": "^10.3.3",
-    "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.8"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -43,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
   }
 }
