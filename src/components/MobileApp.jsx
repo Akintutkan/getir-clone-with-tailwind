@@ -21,6 +21,7 @@ const MobileApp = () => {
           <picture className="pt-6">
               <img src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png" />
           </picture>
+          
       </div>
   )
 }
