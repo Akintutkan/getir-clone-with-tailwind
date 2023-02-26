@@ -8,7 +8,7 @@ export default function Categories() {
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {
-        // istek
+        // istek 
         // setTimeout(() => setCategories(categoryData), 1000)
         setCategories(categoryData)
     }, [])
